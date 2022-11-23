@@ -8,6 +8,6 @@ import org.springframework.stereotype.Component;
 public class ComponentTwoImplement implements IComponentDependency {
     @Override
     public void saludar() {
-        System.out.println("Hola mundo desde mi componete 2");
+        System.out.println("Hola mundo desde mi componente 2");
     }
 }
